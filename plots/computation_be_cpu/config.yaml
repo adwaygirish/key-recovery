@@ -1,0 +1,54 @@
+Folder: results-computation
+OutputFolder: plots-final
+YLabels: 
+  - "Total computation time\n(in s)"
+  - "Total computation time\n(in mins)"
+  - "Total computation time\n(in hrs)"
+Legend:
+  - Double
+  - Single
+Colors: 
+  - '#1f77b4'
+  - '#ff7f0e'
+  - '#2ca02c'
+  - '#d62728'
+  - '#9467bd'
+  - '#8c564b'
+  - '#e377c2'
+  - '#7f7f7f'
+  - '#bcbd22'
+  - '#17becf'
+Data:
+  Anonymity:
+    RelevantDir: anon
+    RelevantColumn: 1
+    XLabel: Privacy Pool Size
+    LegendMode: 1
+    StrawmanNum: 5
+    AddNum: 0
+  # Trustees:
+  #   RelevantDir: trustees
+  #   RelevantColumn: 0
+  #   XLabel: No. of Trustees
+  #   LegendMode: 1
+  Threshold:
+    RelevantDir: threshold
+    RelevantColumn: 2
+    XLabel: Percentage Threshold
+    LegendMode: 4
+    AddNum: 0
+    StrawmanNum: 0
+  AT:
+    RelevantDir: at
+    RelevantColumn: 1
+    XLabel: Privacy Pool Size
+    LegendMode: 2
+    AddNum: 0
+    StrawmanNum: 0
+  SS:
+    RelevantDir: ss
+    RelevantColumn: 1
+    XLabel: No. of Subsecrets
+    LegendMode: 3
+    AddNum: 0
+    StrawmanNum: 0

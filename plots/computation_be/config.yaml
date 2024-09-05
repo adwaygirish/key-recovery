@@ -1,0 +1,35 @@
+Folder: results-computation
+OutputFolder: plots-final
+YLabels: 
+  - "Time taken for \n key recovery (in s)"
+  - "Time taken for \n key recovery (in mins)"
+  - "Time taken for \n key recovery (in hrs)"
+Legend:
+  - Double-layered
+  - Single-layered
+Data:
+  Anonymity:
+    RelevantDir: anon
+    RelevantColumn: 1
+    XLabel: Privacy Pool Size
+    LegendMode: 1
+  Trustees:
+    RelevantDir: trustees
+    RelevantColumn: 0
+    XLabel: No. of Trustees
+    LegendMode: 1
+  Threshold:
+    RelevantDir: threshold
+    RelevantColumn: 2
+    XLabel: Percentage Threshold
+    LegendMode: 1
+  AT:
+    RelevantDir: at
+    RelevantColumn: 5
+    XLabel: Absolute Threshold
+    LegendMode: 2
+  SS:
+    RelevantDir: ss
+    RelevantColumn: 6
+    XLabel: No. of Subsecrets
+    LegendMode: 3

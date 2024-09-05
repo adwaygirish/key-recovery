@@ -1,0 +1,47 @@
+Folder: results-probability
+OutputFolder: plots-expected-people
+Iterations: 1000000
+Epsilon: 0.05
+HLine: true
+VLine: true
+YLabels:
+ - "Expected no. of contacts \nfor recovery"
+ - "Expected no. of trustees \nfor recovery"
+Data:
+  Anonymity:
+    RelevantDir: p-add-an
+    XLabel: "Privacy pool size"
+    RelevantElements:
+      - 30
+      - 50
+      - 70
+      - 90
+  # Threshold:
+  #   RelevantDir: p-add-th
+  #   Legend: "Percentage \nThreshold"
+  #   RelevantElements:
+  #     - 50
+  #     - 70
+  #     - 90
+  # Subsecrets: 
+  #   RelevantDir: p-add-ss
+  #   Legend: "No. of \nSubsecrets"
+  #   RelevantElements:
+  #     - 4
+  #     - 5
+  #     - 6
+  # Trustees:
+  #   RelevantDir: p-add-tr
+  #   Legend: "No. of \nTrustees"
+  #   RelevantElements:
+  #     - 20
+  #     - 25
+  #     - 30
+  # Absolute:
+  #   RelevantDir: p-add-at
+  #   Legend: "Absolute \nThreshold"
+  #   RelevantElements:
+  #     - 3
+  #     - 4
+  #     - 5
+  #     - 6

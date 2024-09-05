@@ -1,0 +1,64 @@
+Folder: results-probability
+OutputFolder: plots-final-1
+Iterations: 1000000
+Epsilon: 0.8
+HLine: true
+VLine: true
+YLabel: "Key recovery probability"
+XLabels:
+  - No. of trustees approached
+  - No. of contacts approached
+  - No. of contacts approached
+Legend:
+  - Apollo
+  - Thresholded-Apollo
+  - Hinted-Apollo
+  - Baseline
+Linestyles:
+  - "-"
+  - "-"
+  - "-"
+  - "--"
+Data:
+  Anonymity:
+    RelevantDirs:
+      - p-add-a
+      - p-thr-a
+      - p-hintedT-a
+      - p-baseline-a
+    Legend: "Privacy \nPool Size"
+    Parameter: 150
+  #   RelevantElements:
+  #     - 30
+  #     - 50
+  #     - 70
+  #     - 90
+  # Threshold:
+  #   RelevantDir: p-add-th
+  #   Legend: "Percentage \nThreshold"
+  #   RelevantElements:
+  #     - 50
+  #     - 70
+  #     - 90
+  # Subsecrets: 
+  #   RelevantDir: p-add-ss
+  #   Legend: "No. of \nSubsecrets"
+  #   RelevantElements:
+  #     - 4
+  #     - 5
+  #     - 6
+  # Trustees:
+  #   RelevantDir: p-add-tr
+  #   Legend: "No. of \nTrustees"
+  #   RelevantElements:
+  #     - 20
+  #     - 25
+  #     - 30
+  # Absolute:
+  #   RelevantDir: p-add-at
+  #   Legend: "Absolute \nThreshold"
+  #   RelevantElements:
+  #     - 3
+  #     - 4
+  #     - 5
+  #     - 6

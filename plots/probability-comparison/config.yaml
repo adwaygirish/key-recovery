@@ -1,0 +1,57 @@
+Folder: results_probability_2
+OutputFolder: plots-comparison
+Iterations: 1000000
+Epsilon: 0.05
+HLine: true
+VLine: true
+YLabel: "Key recovery probability"
+XLabels:
+  - No. of trustee reconnections
+  - No. of reconnections
+  - No. of reconnections
+Colors: 
+  - '#2ca02c'
+  - '#d62728'
+  - '#1f77b4'
+  - '#ff7f0e'
+  - '#9467bd'
+  - '#8c564b'
+  - '#e377c2'
+  - '#7f7f7f'
+  - '#bcbd22'
+  - '#17becf'
+Data:
+  Anonymity:
+    RelevantDir: comparison
+    Obtained:
+      - 100
+      # - 99
+      - 90
+      - 80
+      - 70
+      - 60
+      - 50
+    Whistleblow:
+      - 0
+      - 1
+      - 2
+    Memory:
+      - 10
+      - 20
+      - 30
+      - 40
+      - 50
+    MemoryOverall:
+      - 10
+      - 20
+      - 40
+    ObtainWhistleblow:
+      - 70
+      - 80
+    
+    # Legend: ""
+    # RelevantElements:
+    #   - 30
+    #   - 50
+    #   - 70
+    #   - 90

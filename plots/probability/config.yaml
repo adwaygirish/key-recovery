@@ -1,0 +1,68 @@
+Folder: results-probability
+OutputFolder: plots-probability
+Iterations: 1000000
+Epsilon: 0.8
+HLine: true
+VLine: true
+YLabel: "Key recovery probability"
+Colors: 
+  - '#1f77b4'
+  - '#ff7f0e'
+  - '#2ca02c'
+  - '#d62728'
+  - '#9467bd'
+  - '#8c564b'
+  - '#e377c2'
+  - '#7f7f7f'
+  - '#bcbd22'
+  - '#17becf'
+XLabels:
+  - No. of trustees approached
+  - No. of contacts approached
+  - No. of contacts approached
+Data:
+  Anonymity:
+    RelevantDir: p-add-an
+    Legend: "Privacy \nPool Size"
+    Flag: 1
+    RelevantElements:
+      # - 30
+      # - 50
+      # - 70
+      # - 90
+      - 50
+      - 100
+      - 150
+  Threshold:
+    RelevantDir: p-add-th
+    Legend: "Percentage \nThreshold"
+    Flag: 1
+    RelevantElements:
+      - 50
+      - 70
+      - 90
+  Subsecrets: 
+    RelevantDir: p-add-ss
+    Legend: "No. of \nSubsecrets"
+    Flag: 0
+    RelevantElements:
+      - 4
+      - 5
+      - 6
+  Trustees:
+    RelevantDir: p-add-tr
+    Legend: "No. of \nTrustees"
+    Flag: 1
+    RelevantElements:
+      - 20
+      - 25
+      - 30
+  Absolute:
+    RelevantDir: p-add-at
+    Legend: "Absolute \nThreshold"
+    Flag: 0
+    RelevantElements:
+      - 3
+      - 4
+      - 5
+      - 6

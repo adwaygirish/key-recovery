@@ -1,0 +1,37 @@
+Folder: results-computation
+OutputFolder: plots-final
+YLabels: 
+  - "Computation time \n per reconnection (in s)"
+  - "Computation time \n per reconnection (in mins)"
+  - "Computation time \n per reconnection (in hrs)"
+Legend:
+  - Double-layered
+  - Single-layered
+Data:
+  Anonymity:
+    RelevantDir: anon
+    RelevantColumn: 1
+    XLabel: No. of reconnections
+    LegendMode: 1
+    StrawmanNum: 0
+    AddNum: 0
+  # Trustees:
+  #   RelevantDir: trustees
+  #   RelevantColumn: 0
+  #   XLabel: No. of Trustees
+  #   LegendMode: 1
+  # Threshold:
+  #   RelevantDir: threshold
+  #   RelevantColumn: 2
+  #   XLabel: Percentage Threshold
+  #   LegendMode: 1
+  # AT:
+  #   RelevantDir: at
+  #   RelevantColumn: 5
+  #   XLabel: Absolute Threshold
+  #   LegendMode: 2
+  # SS:
+  #   RelevantDir: ss
+  #   RelevantColumn: 6
+  #   XLabel: No. of Subsecrets
+  #   LegendMode: 3
