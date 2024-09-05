@@ -1,0 +1,13 @@
+iterations: 10
+max_anon_set_size: 200
+default_trustees: 20
+default_anonymity_set_size: 150
+default_absolute_threshold: 3
+default_no_of_subsecrets: 5
+default_shares_per_person: 2
+default_percentage_threshold: 50
+default_subsecrets_threshold: 100
+default_trustees_hint: 5
+default_shares_hint: 5
+simulation_distribution_nums: 100
+simulation_run_nums: 10000
